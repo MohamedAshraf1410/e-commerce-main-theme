@@ -1,0 +1,111 @@
+
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.container{
+    width: 1550px;
+    margin: auto;
+}
+.button{    
+    padding: 2%;
+    font-size: 150%;
+    padding-top: 5px;
+    background-color: transparent;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-family:cursive;
+border-style:hidden;
+}
+
+.button:hover{
+background-color: grey;
+color: gray;
+border-style: inset;
+border-left: 2px solid white;
+background-color: transparent;
+height: 40px;
+padding: 0px 10px;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+}
+.navbar .logo{
+    
+    float: left;
+    width: 40%;
+    text-transform: uppercase;
+}
+.navbar .links{
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+background-color: transparent;
+}
+.clearfix{
+    clear: both;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .links li:hover{
+    filter: brightness(.5);
+    
+}
+.navbar .links li{
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    font-weight: 900;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.signn{
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.signn:hover{
+    background-color: green;
+    color: white;
+}
+.navbar .links .sign{
+border-bottom: black;
+    position: relative;
+width:20% 20%;
+font-size: 120%;
+background-color: black;
+color: white
+}
+body{
+    background-image: url(shika.jpg);
+background-repeat: no-repeat;
+}
+.text{
+    color: aliceblue;
+    margin-top: 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text1{
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px;
+    font-weight: 900;
+}
+.text2{
+    font-size: 50px;
+    font-style:italic;
+    padding: 10px;
+    font-weight: 900;
+}
